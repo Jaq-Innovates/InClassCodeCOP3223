@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <math.h>
+#include <ctype.h>
+#include <string.h>
+// Case 1: math librrary
+
+
+int main{
+    //different libraries
+    int x = 4;
+    int x_squared = pow(4,2)
+    print("4 raised to the 2 power is: %d\n",x_squared);
+    
+    int letter = 'c';
+    if(isalpha(letter))
+    printf("Is 'letter' an actual 'letter' ? -> %c\n"), isalpha(letter));
+
+    //using string library
+    char* string = "Benji";
+    printf("Benji's name has %ld characters. \n", strlen(string));
+
+    //i/o
+    int left = 4;
+    int rifgt = 6;
+    int result = left + right;
+    printf("the result of %d plus %d is %d.\n", left, right, result);
+
+    //scanning
+    int length_of_recording;
+    scanf(" %d", &length_of_recording);
+    printf("The length of the recording based on the user is %d minutes.\n ",lenght_of_recording + 10);
+
+    char new_letter = '';
+    scanf(" %c", &string);
+    printf("The user has typed %c \n.", new_letter);
+
+    return 0;
+}
